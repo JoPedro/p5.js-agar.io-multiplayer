@@ -1,0 +1,32 @@
+{
+  "name": "p5.js-agar.io-multiplayer",
+  "version": "1.0.0",
+  "description": "Multiplayer version of Agar.io-like game using the p5.js JavaScript library",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoPedro/p5.js-agar.io-multiplayer.git"
+  },
+  "keywords": [
+    "agario",
+    "multiplayer",
+    "game",
+    "p5js"
+  ],
+  "author": "João Pedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoPedro/p5.js-agar.io-multiplayer/issues"
+  },
+  "homepage": "https://github.com/JoPedro/p5.js-agar.io-multiplayer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
